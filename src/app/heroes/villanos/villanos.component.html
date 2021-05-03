@@ -1,0 +1,21 @@
+<h1>LISTADO DE SUPER VILLANOS CAÑONES</h1>
+
+<ul>
+  <h2>
+  <li *ngFor="let villanos of villanos; let indice = index">
+    
+      {{ indice + 1 }} - {{ villanos }}
+    
+    </li>
+     <h2><input type= “text”></h2>
+  </h2>
+ 
+      <h3>El numero de villano:</h3>
+      <button (click) ="acumular(base)">+{{base}}</button>
+      <span>{{numero}}</span>
+      <button (click) = "acumular(base)">-{{base}}</button>
+    <div>
+     
+      
+      
+    </div>

@@ -13,7 +13,6 @@ export class ListadoComponent {
   removeItem(i: number){
 
     this.indice=this.indice+i;
-    this.eliminar = this.heroes.splice(i,1);
 
   }
 
